@@ -1,0 +1,43 @@
+a{
+    color: inherit; 
+    text-decoration: none;
+}
+.home {
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+.needs {
+
+    padding-bottom: 2rem;
+}
+
+.fee-fitur {
+
+    padding-bottom: 1.5rem;
+}
+
+.cta {
+    background-color: #fce9d8;
+    height: 50vh; /* Set the height to 100% of the viewport height */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+
+}
+
+@media (max-width: 767.98px) {
+    /* Center the content vertically and horizontally */
+    #home,
+    #teach,
+    #fee-fitur,
+    #cta {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      min-height: 50vh;
+    }
+  }
