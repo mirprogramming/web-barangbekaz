@@ -1,3 +1,19 @@
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
 a{
     color: inherit; 
     text-decoration: none;
@@ -8,6 +24,18 @@ a{
     justify-content: center; /* Center content horizontally */
     align-items: center; /* Center content vertically */
 }
+
+.akad, .donasi, .shareloc, .barang {
+    padding-top: 1rem;
+    padding-bottom: 10vh;
+    height: 80vh;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+
+}
+
+
 
 .needs {
 
@@ -21,7 +49,7 @@ a{
 
 .cta {
     background-color: #fce9d8;
-    height: 50vh; /* Set the height to 100% of the viewport height */
+    height: 100vh; /* Set the height to 100% of the viewport height */
     display: flex; /* Use flexbox */
     justify-content: center; /* Center content horizontally */
     align-items: center; /* Center content vertically */
@@ -39,5 +67,18 @@ a{
       align-items: center;
       text-align: center;
       min-height: 50vh;
+    }
+
+    h1, h2, h3, h4, p {
+        text-align: center;
+    }
+
+    iframe {
+        height: 10;
+    }
+
+    .barang {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
     }
   }
