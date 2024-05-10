@@ -50,11 +50,29 @@ a{
     z-index: 1; /* Ensure text appears above the overlay */
 }
 
+.akad {
+    height: 70vh;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
 
-.akad, .donasi, .shareloc, .barang {
+    
+}
+
+.donasi, .shareloc{
     padding-top: 1rem;
     padding-bottom: 10vh;
     height: 80vh;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+
+}
+
+.barang {
+    padding-top: 1rem;
+    padding-bottom: 10vh;
+    height: 100vh;
     display: flex; /* Use flexbox */
     justify-content: center; /* Center content horizontally */
     align-items: center; /* Center content vertically */
